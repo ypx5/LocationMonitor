@@ -1,8 +1,10 @@
 package com.flashzhang.locationmonitor;
 
 import android.os.Bundle;
+import android.provider.Settings.Secure;
 import android.app.Activity;
 import android.view.Menu;
+import android.widget.TextView;
 
 public class MainActivity extends Activity
 {
@@ -12,6 +14,9 @@ public class MainActivity extends Activity
 	{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		TextView serialno=(TextView)findViewById(R.id.serialno);
+		String m_szAndroidID = Secure.getString(getContentResolver(), Secure.ANDROID_ID);
+		serialno.setText(m_szAndroidID);
 	}
 
 	@Override
