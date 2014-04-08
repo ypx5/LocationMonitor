@@ -6,5 +6,6 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="src" path="gen"/>
 	<classpathentry kind="lib" path="E:/github/git/LocationMonitor/LocationMonitor/libs/baidumapapi_v2_4_1.jar"/>
+	<classpathentry kind="lib" path="E:/github/git/LocationMonitor/LocationMonitor/libs/locSDK_4.1.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
